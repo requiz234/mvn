@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shop xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="shop" xsi:schemaLocation="shop ">
+    <good function="productGoods" >
+        <id>1</id>
+        <kategory>milkyGood</kategory>
+        <name>SourCream</name>
+        <cost>7000</cost>
+    </good>
+
+    <good function="productGoods">
+        <id>2</id>
+        <kategory>milkyGood</kategory>
+        <name>Kefir</name>
+        <cost>10000</cost>
+    </good>
+
+
+    <good function="nonProductGood">
+        <id>3</id>
+        <kategory>clothes</kategory>
+        <cost>1200000</cost>
+        <name>Coat</name>
+        <attribute>
+            <size>48</size>
+            <sex>women</sex>
+        </attribute>
+    </good>
+
+    <good function="nonProductGood">
+        <id>4</id>
+        <kategory>clothes</kategory>
+        <cost>500000</cost>
+        <name>jeans</name>
+        <attribute>
+            <size>50</size>
+            <sex>men</sex>
+        </attribute>
+    </good>
+
+
+</shop>
